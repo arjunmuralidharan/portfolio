@@ -3,7 +3,7 @@ body {
 	font-size: 1.2em;
 	max-width: 1280px;
 	margin: auto;
-	padding: 4em;
+	padding: 1.5em;
 	display: flex;
 	flex-flow: column nowrap;
 	align-self: center;
@@ -21,6 +21,7 @@ footer {
 	text-align: center;
 	font-size: smaller;
 	border-top: 1px solid #069e45;
+    padding-top: 1em;
 }
 
 a {
@@ -47,13 +48,13 @@ a:hover {
 	display: flex;
 	flex-flow: row wrap;
 	border-bottom: 1px solid rgb(230, 230, 230);
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 /* The showcased image (phone or screen) */
 .portfolio-image {
-	flex: 1 1 200px;
+	flex: 1 1 300px;
 	top: 1em;
 }
 
@@ -124,6 +125,7 @@ a:hover {
 .about-container img {
 	width: 100%;
 	padding-bottom: 1em;
+
 }
 
 .about-img {
